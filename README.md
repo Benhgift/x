@@ -1,9 +1,18 @@
 # x
 Python3 lib to get stdin super easy. `ls | python3 -c "import x; print(x)" `
 
-Add this to your `.bashrc` after cloning: 
+# Quickstart
 
-    export PYTHONPATH=$PYTHONPATH:/wherever/you/cloned/this
+This will clone the repo and then add it to your python path: 
+
+    mkdir x && cd x
+    git clone https://github.com/Benhgift/x.git
+    echo 'export PYTHONPATH=$PYTHONPATH:'`pwd` >> ~/.bashrc
+    source ~/.bashrc
+    
+done
+    
+--- 
 
 If you want to streamline bash further add this to you `.bashrc`:
 
